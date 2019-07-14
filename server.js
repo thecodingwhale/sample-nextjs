@@ -12,11 +12,11 @@ app.prepare().then(() => {
   const router = new Router()
 
   router.get('/', async ctx => {
-    await app.render(ctx.req, ctx.res, '/dashboard', ctx.query)
+    await app.render(ctx.req, ctx.res, '/', ctx.query)
     ctx.respond = false
   })
 
-  router.get('/profile', async ctx => {
+  router.get('/about', async ctx => {
     await app.render(ctx.req, ctx.res, '/about', ctx.query)
     ctx.respond = false
   })

@@ -149,9 +149,9 @@ export default function Layout(props) {
               <ListItemText primary='Dashboard' />
             </ListItem>
           </Link>
-          <Link href="/profile">
+          <Link href="/about">
             <ListItem button>
-              <ListItemIcon><InboxIcon /></ListItemIcon>
+              <ListItemIcon><MailIcon /></ListItemIcon>
               <ListItemText primary='Profile' />
             </ListItem>
           </Link>
